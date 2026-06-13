@@ -3,25 +3,25 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "dependencies": {
-    "@expo/ui": "~56.0.16",
+    "@expo/ui": "~56.0.17",
     "@expo/vector-icons": "^15.0.2",
     "@react-native-async-storage/async-storage": "2.2.0",
     "@react-native-ml-kit/text-recognition": "^2.0.0",
-    "expo": "~56.0.9",
-    "expo-camera": "~56.0.7",
+    "expo": "~56.0.11",
+    "expo-camera": "~56.0.8",
     "expo-constants": "~56.0.17",
     "expo-device": "~56.0.4",
     "expo-file-system": "~56.0.7",
     "expo-font": "~56.0.5",
     "expo-glass-effect": "~56.0.4",
-    "expo-image": "~56.0.10",
-    "expo-linking": "~56.0.13",
+    "expo-image": "~56.0.11",
+    "expo-linking": "~56.0.14",
     "expo-local-authentication": "~56.0.4",
-    "expo-print": "~56.0.3",
-    "expo-router": "~56.2.9",
-    "expo-sharing": "~56.0.16",
+    "expo-print": "~56.0.4",
+    "expo-router": "~56.2.10",
+    "expo-sharing": "~56.0.17",
     "expo-splash-screen": "~56.0.10",
-    "expo-sqlite": "~56.0.4",
+    "expo-sqlite": "~56.0.5",
     "expo-status-bar": "~56.0.4",
     "expo-symbols": "~56.0.6",
     "expo-system-ui": "~56.0.5",
@@ -54,6 +54,11 @@
   },
   "private": true,
   "expo": {
+    "install": {
+      "exclude": [
+        "react-native-worklets"
+      ]
+    },
     "doctor": {
       "reactNativeDirectoryCheck": {
         "exclude": [
